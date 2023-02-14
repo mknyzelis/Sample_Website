@@ -1,11 +1,20 @@
 body {
-  background-color: #939599;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  margin: 0;
+}
+#home {
+	background-color: #FFC0CB;
+}
+
+#news {
+	background-color: #63C5DA;
 }
 #about {
-	background-color: white;
+	background-color: red;
 }
+#contact {
+	background-color: green;
+}
+
 .city-picture {
   width: 500px;
 }
@@ -14,37 +23,42 @@ header {
   background-color: #1C110A;
 }
 header h2 {
-	font-family: 'Cinzel', serif;
-	font-weight: 700;
   color: #fff;
   margin: 0;
   padding: 40px;
+  font-family: 'Montserrat', sans-serif;
 }
-nav ul {
+h1 {
+	font-family: 'Montserrat', sans-serif;
+}
+ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0 0 0 25px;
   padding: 0;
   overflow: hidden;
 }
 
-nav li {
+li {
   float: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
-nav li a {
+li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 36px;
+  padding: 14px 26px;
   text-decoration: none;
 }
 .active {
-  background-color: #175676;
+  background-color: #3EB489;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #3EB489;
 }
 
-nav li a:hover {
-  background-color: #175676;
-}
 footer {
   background-color: #175676;
   padding: 40px;
@@ -64,15 +78,16 @@ footer p {
   padding: 40px;
   background-color: #F7E12B;
 }
+#news .two-column {
+	background-color: red;
+	padding: 20px 40px;
+}
 .two-column div {
   margin-right: 10px;
   margin-left: 10px;
   background-color: #fff;
 }
-#projects .two-column {
-	background-color: red;
-	padding: 10px 40px 10px 40px;
-}
+
 .three-column {
   display: grid;
   grid-template-columns: 33% 33% 33%;
